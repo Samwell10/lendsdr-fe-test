@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Lendsqr Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple web application that returns the list of lenders and their details from an api.
 
 ## Available Scripts
 
