@@ -1,0 +1,80 @@
+.filter{
+    position: absolute;
+    padding: 30px;
+    background-color: #ffff;  
+    border: 1px solid rgba(84, 95, 125, 0.14);
+    box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+    .filter-organisation{
+        label{
+            font-family: 'Work Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 16px;
+            color: #545F7D;
+        }
+        select{
+            margin-top: 5px;
+            margin-bottom: 5px;
+            width: 230px;
+            height: 40px;
+            background: #FFFFFF;
+            border: 1px solid #21407d4b;
+            border-radius: 8px;
+        }
+    }
+    .filter-text{
+        label{
+            font-family: 'Work Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 16px;
+            color: #545F7D;
+        }
+        input{
+            margin-top: 5px;
+            margin-bottom: 5px;
+            width: 230px;
+            height: 40px;
+            background: #FFFFFF;
+            border: 1px solid #21407d4b;
+            border-radius: 8px;
+        }
+    }
+    .filter-buttons{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        .reset-button{
+            background-color: transparent;
+            font-family: 'Work Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: center;
+            color: #545F7D;
+            width: 98px;
+            height: 40px;
+            border: 1px solid #545F7D;
+            border-radius: 8px;
+        }
+        .filter-button{
+            background-color: transparent;
+            font-family: 'Work Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: center;
+            color: #FFFFFF;
+            width: 98px;
+            height: 40px;
+            background: #39CDCC;
+            border: 1px solid #39CDCC;
+            border-radius: 8px;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+.personal-info{
+    border-bottom: 1px solid #21407d12;
+    padding-top: 30px;
+    &:last-child{
+        border-bottom: none;
+    }
+    p{
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #213F7D;
+    }  
+    .personal-info-inner{
+        display: flex;
+        flex-wrap: wrap;
+        column-gap:130px;
+        .personal-details{
+            padding-top: 30px;
+            padding-bottom: 30px;
+            .info-header{
+                font-family: 'Work Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 14px;
+                text-transform: uppercase;
+                color: #545F7D;
+            }
+            .info{
+                font-family: 'Work Sans';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+                color: #545F7D;
+            }
+        }
+    }
+}

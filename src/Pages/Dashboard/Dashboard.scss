@@ -1,0 +1,36 @@
+.dashboard{
+    display: flex;
+    .dashboard-container{
+        width: 100%;
+        .dashboard-inner{
+            padding: 60px;
+        }
+        @media (max-width: 820px) {
+            .dashboard-inner{
+                padding: 30px;
+            }
+        }
+        .dashboard-title{
+            p{
+                font-family: 'Work Sans';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 28px;
+                color: #213F7D;
+            }
+        }
+        .widgets{
+            margin-top: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 26px;
+        }
+        .tables{
+            margin-top: 40px;
+            border: 1px solid rgba(33, 63, 125, 0.06);
+            box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+            border-radius: 4px;
+        }
+    }
+}

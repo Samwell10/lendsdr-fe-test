@@ -1,0 +1,104 @@
+.navbar{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    box-shadow: 14px 0px 20px rgba(0, 0, 0, 0.04);
+
+    .wrapper{
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        .search{
+            width: 400px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            border: 1px solid #213F7D;
+            border-right: none;
+            border-radius: 8px;
+            input{
+                width: 85%;
+                height: 100%;
+                border: none;
+                outline: none;
+                background-color: transparent;
+                padding-left: 20px;
+                &::placeholder{
+                    font-family: 'Work Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 16px;
+                    color: #545F7D;
+                }
+            }
+            .search-icon{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 15%;
+                height: 40px;
+                background-color: #39CDCC;
+                border-radius: 0px 8px 8px 0px;
+                border: none;
+                color: white;
+            }
+        }
+        .profile{
+            display: flex;
+            align-items: center;
+            margin-right: 43px;
+            .notification-icon{
+                font-size: 22px;
+                color:#213F7D;
+            }
+            .nav-doc p{
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                text-decoration-line: underline;
+                color: #213F7D;
+                margin-right:10px;
+            }
+            .profile-image{
+                display: flex;
+                align-items: center;
+                margin-left: 33px;
+                img{
+                    border-radius: 50%;
+                }
+                .profile-name{
+                    margin-left: 10px;
+                    font-family: 'Work Sans';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #213F7D;
+                }
+                .dropdown-icon{
+                    margin-left: 10px;
+                }
+            }
+            @media (max-width: 820px) {
+                .nav-doc p{
+                    margin-right:-10px;
+                }
+                
+            }
+        }
+        @media (max-width: 820px) {
+            .profile{
+                width: 40%;
+            }
+            .search{
+                width: 40%;
+            }
+        }
+    }
+}

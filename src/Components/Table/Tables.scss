@@ -1,0 +1,74 @@
+.table{
+  .tablecontainer{
+    position: relative;
+    .tablerow{
+      .tablecell-head{
+          font-family: 'Work Sans';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 14px;
+          color: #545F7D;
+          .filter-icon{
+              margin-left: 5px;
+              font-size: 14px;
+          }
+        }
+      
+    }
+    .tablecell-body{
+      font-family: 'Work Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      color: #545F7D;
+
+      .toggle-button{
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: #E4033B;
+        padding: 10px;
+        border: none;
+        background: #e4033b1c;
+        border-radius: 100px;
+      }
+      .toggle-active{
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: #39CD62;
+        padding: 10px;
+        border: none;
+        background: #39cd631d;
+        border-radius: 100px;
+    }
+
+    }
+    .actions{
+      position: absolute;
+      list-style: none;
+      padding: 20px;
+      width: 150px;
+      li{
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #545F7D;
+        margin-top: 15px;
+        span{
+          margin-left: 8px;
+        }
+      }
+    }
+  }
+}
