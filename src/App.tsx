@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route  path='/' element={<Login/>}></Route>
+        <Route  path='/lendsdr-fe-test' element={<Login/>}></Route>
         <Route  path='/Dashboard' element={<Dashboard/>}></Route>
         <Route  path='/user/:id' element={<User/>}></Route>
       </Routes>

@@ -33,7 +33,7 @@ const Sidebar = () => {
                         <span style={{display: isopen ? "block" : 'none'}}>Dashboard</span>
                     </li>
                     <p className="sidebar-title">CUSTOMERS</p>
-                    <li>
+                    <li className="active">
                         <FaUserFriends className="icon" style={{fontSize: isopen ? "16px" : '30px', marginLeft: isopen ? "0px" : '20%' }}/>
                         <span style={{display: isopen ? "block" : 'none'}}>Users</span>
                     </li>

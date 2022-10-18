@@ -58,6 +58,7 @@
                 line-height: 19px;
                 color: #213F7D;
                 transition: ease-in-out 0.2s;
+                
                 &:hover{    
                     border-left:5px solid #39CDCC;
                     background-color: #39cdcd0b;
@@ -73,6 +74,12 @@
                 .dropdown-icon{
                     margin-left: 10px;
                 }
+            }
+            .active{
+                border-left:5px solid #39CDCC;
+                background-color: #39cdcd0b;
+                color: #213F7D;
+                transition: ease-in-out 0.2s;  
             }
         }
     }
