@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/lendsdr-fe-test/static/css/main.2e1eed29.css",
+    "main.js": "/lendsdr-fe-test/static/js/main.d8dcb98d.js",
+    "static/media/FontsFree-Net-SFCompactText-Regular.ttf": "/lendsdr-fe-test/static/media/FontsFree-Net-SFCompactText-Regular.b43cb827816768f1e49d.ttf",
+    "static/media/loginillustration.svg": "/lendsdr-fe-test/static/media/loginillustration.09ab3c2d3909a795c1389eddc76c5449.svg",
+    "static/media/AvenirNextLTPro-Bold.otf": "/lendsdr-fe-test/static/media/AvenirNextLTPro-Bold.711a4eb654bf1139f123.otf",
+    "static/media/AvenirNextLTPro-Regular.otf": "/lendsdr-fe-test/static/media/AvenirNextLTPro-Regular.94f2f163d4b698242fef.otf",
+    "static/media/logo.svg": "/lendsdr-fe-test/static/media/logo.7370afa69c4cab86ef17947d4753c806.svg",
+    "index.html": "/lendsdr-fe-test/index.html",
+    "main.2e1eed29.css.map": "/lendsdr-fe-test/static/css/main.2e1eed29.css.map",
+    "main.d8dcb98d.js.map": "/lendsdr-fe-test/static/js/main.d8dcb98d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e1eed29.css",
+    "static/js/main.d8dcb98d.js"
+  ]
+}
